@@ -52,6 +52,8 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{\hspace{-.15in}}{0em}{}[\color{black}\vspace{-8pt}]
 
+
+
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
@@ -172,12 +174,13 @@ Innovative and passionate programmer seeking to leverage extensive background in
     \resumeSubHeadingListStart   
     
         \resumeProjectHeading
-        {\textbf{Analyzed Kenya Data} $|$ \footnotesize\emph{ Jupyter Notebook ,HTML/CSS, Git,VS Code}}{}
+        {\textbf{Analyzed Kenya Data} $|$ \footnotesize\emph{ Jupyter Notebook ,HTML, Git,VS Code}}{}
         \resumeItemListStart
             \resumeItem{Analyzed Kenya's 2019 census data from KNBS}
             \resumeItem{Performed comparative and descriptive insights and visualized the Kenya 2019 census data}
             \resumeItem{Cleaned and transformed Kenya's weather data from 1991-2016}
             \resumeItem{Identified correlations and applied statistical methods to find the best fit model for average data across the years}
+            \resumeItem{Exported the Jupyter Notebook file to HTML to allow interactive visualizations to be seamlessly integrated with the code and analysis}
           \resumeItemListEnd
         
         
@@ -188,12 +191,13 @@ Innovative and passionate programmer seeking to leverage extensive background in
             \resumeItem{Developed python SMTP scripts that enable email automation}
             \resumeItem{Learned how to connect to gmail servers and use databases in conjunction with Google APIs}
           \resumeItemListEnd
-        
-          
+           
      
           
     \resumeSubHeadingListEnd
-    
+    \vspace{-8pt}
+     
+
     
 % -------------------- CERTIFICATIONS --------------------
 \section{Certifications}
@@ -207,15 +211,21 @@ Innovative and passionate programmer seeking to leverage extensive background in
      \textbf{Alteryx Foundational Micro-Credential:}{		Alteryx} \\
      \textbf{International Computer Drivers License - Level One (ICDL):}{		ICDL Africa} \\
      
+ 
+     
     }}
  \end{itemize}
  
+
  
  
- \vspace{30pt}
+
 
 % -------------------- HOBBIES --------------------
+\newpage
+\vspace*{0.5cm}
 \section{Hobbies}
+
 \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Playing the Drums}{: Played the drums Primary and Highschool marching bands} \\
@@ -224,5 +234,6 @@ Innovative and passionate programmer seeking to leverage extensive background in
      \textbf{Art}{: Whether drawing, painting or any other creative expression} \\
     }}
  \end{itemize}
+ 
 
 \end{document}
