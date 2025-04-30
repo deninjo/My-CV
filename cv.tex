@@ -106,7 +106,7 @@
 \begin{flushright}
   \color{gray}
   \item
-  Last Updated on April 12th, 2024
+  
 \end{flushright}
 
 \vspace{-5pt}
@@ -161,10 +161,10 @@ Innovative and zealous programmer seeking to leverage extensive background in da
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
     
-     \textbf{Languages}{: C, Python, SQL, PhP HTML/CSS, \LaTeX} \\
+     \textbf{Languages}{: C, Python, SQL, PhP, HTML/CSS, \LaTeX} \\
      
-     \textbf{Tools}{: Git/GitHub, Unix Shell, VS Code, MySQL Workbench, IntelliJ CLion/PyCharm/IDEA, IBM Cognos, Excel, Power BI} \\
-     \textbf{Fields of interest}{: Data Analysis and visualization, Data Science, Back-end Development, Artificial intelligence} \\
+     \textbf{Tools}{: Git/GitHub, Unix Shell, VS Code, MySQL Workbench, PyCharm, IBM Cognos, Excel, Power BI, Ms Office, Microsoft Dynamics 365} \\
+     \textbf{Operating Systems}{: Linux, Windows} \\
      
     }}
  \end{itemize}
@@ -172,6 +172,59 @@ Innovative and zealous programmer seeking to leverage extensive background in da
 % -------------------- PROJECTS --------------------
 \section{Projects}
     \resumeSubHeadingListStart   
+    
+    
+    
+    
+\resumeProjectHeading
+        {\textbf{Analyzed the Relationship Between HIV Prevalence and Multidimensional Poverty} $|$ 
+\footnotesize\emph{Python, Pandas, GeoPandas} \\
+\footnotesize\emph{Seaborn, Matplotlib, Jupyter}}{}
+        
+        \resumeItemListStart
+        
+            \resumeItem{Conducted a cross-national analysis of the relationship between HIV prevalence and multidimensional poverty using datasets from the WHO Global Health Observatory and World Bank}
+            
+            \resumeItem{Cleaned and preprocessed multi-source datasets; to enable accurate merging and comparison.}
+            
+            \resumeItem{Integrated HIV and poverty datasets by country and year, forming a comprehensive panel dataset to support temporal and spatial analysis.}
+            
+            \resumeItem{Built and interpreted correlation matrices to explore statistical relationships between HIV prevalence and poverty sub-indicators (e.g., education, sanitation, electricity)}
+            
+            \resumeItem{Visualized key trends using time-series plots and scatter plots to support pattern discovery and hypothesis testing using interactive visualization libraries (e.g., Plotly) to enhance data exploration and stakeholder presentation quality.}
+            
+            \resumeItem{Isolated countries accounting for 75\% of the global HIV burden, which included South Africa, Nigeria, Mozambique, India, and Kenya}
+
+            
+            \resumeItem{Analyzed under-five and neonatal mortality in East African Community (EAC) countries using UN IGME data.}
+            
+            \resumeItem{Filtered the mortality dataset for 8 EAC countries then used GADM shapefiles to visualize latest estimates of under-five and neonatal mortality for these countries via choropleth maps, reinforcing geographic storytelling}
+            
+         
+            
+            \resumeItem{Demonstrated ability to work with real-world, imperfect data and draw actionable insights from public health and socio-economic datasets.} 
+                     
+          \resumeItemListEnd
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
         \resumeProjectHeading
         {\textbf{Analyzed Kenya Data} $|$ \footnotesize\emph{ Jupyter Notebook ,HTML, Git,VS Code}}{}
@@ -182,6 +235,7 @@ Innovative and zealous programmer seeking to leverage extensive background in da
             \resumeItem{Identified correlations and applied statistical methods to find the best fit model for average data across the years}
             \resumeItem{Analyzed Stock Prices from Historical Data (NSE from 2007 - 2012) to understand patterns, predict future movements, and make data-driven investment decisions.}
             \resumeItem{Predicted the closing price of stocks based on key predictors using ML techniques}
+            \resumeItem{Analyzed Road accidents data and used classification models to predict how risky a road is prone to traffic accidents}
             
             \resumeItem{Exported the Jupyter Notebook file to HTML to allow interactive visualizations to be seamlessly integrated with the code and analysis}
           \resumeItemListEnd
@@ -194,10 +248,91 @@ Innovative and zealous programmer seeking to leverage extensive background in da
             \resumeItem{Cleaned and transformed raw data into useful information}
             \resumeItem{Created interactive dashboards providing comparative and descriptive insights}
             \resumeItem{These dashboards were designed to be dynamic, offering tailored insights at a glance, demonstrating proficiency in Power BI's advanced visualization and data modeling capabilities.}
-            \resumeItem{Applied DAX queries to create calculated measures and columns, enabling insights such as most-streamed genres, artists, and time-based listening patterns.}
-            
-            
+            \resumeItem{Applied DAX queries to create calculated measures and columns, enabling insights such as most-streamed genres, artists, and time-based listening patterns.}            
           \resumeItemListEnd
+        
+        
+
+       
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+        
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+        
+        
+        \resumeProjectHeading
+{\textbf{Movie Ticket Booking System} $|$ \footnotesize\emph{Python, MySQL, Linux Shell, Power BI, PhP}}{}
+\resumeItemListStart
+    \resumeItem{Built a robust MySQL database for a ticket booking system, incorporating essential tables for customers, movies, showtimes, theatres, seats, and bookings.}
+    \resumeItem{Advanced logic was implemented using triggers to handle tasks like: Dynamic price calculations based on seat category, showtime, and customer type (e.g., applying a 25\% discount for students).}
+    \resumeItem{The backend system was developed in Python, leveraging libraries like mysql-connector to connect to the MySQL database. Python scripts acted as the core interface between users and the database.}
+    \resumeItem{Python classes (Customer, Movie, Theatre, Seat, etc.) handled operations like: Customer data entry and validation, Displaying movies and their available showtimes, Viewing and managing seating charts, Adding, confirming, and canceling bookings.}
+    
+    \resumeItem{Distributed the Database via Master-Slave Replication:
+        \begin{itemize}
+            \item A master-slave replication model was implemented to improve database performance and scalability.
+            \item The master database managed all write operations, such as adding bookings, updating customer information, and modifying seat statuses.
+            \item The slave databases were optimized for read-heavy operations like retrieving seating charts or displaying available showtimes.
+            \item Automated the backup process using cron jobs in combination with database-specific tools (e.g., mysqldump, mysqlbackup).
+            \item This architecture enhanced system performance and reduced latency for users by reducing the load on the master node. It also provided redundancy to safeguard against failures.
+        \end{itemize}
+    }
+    
+    \resumeItem{A data warehouse was designed and set up to aggregate and store data for analytics.
+        \begin{itemize}
+
+            \item ETL pipelines extracted transactional data from the MySQL database, transformed it into meaningful metrics (e.g., total revenue by showtime), and loaded it into the data warehouse.
+            \item A star schema was used to optimize the warehouse for analytical queries, with fact tables (e.g., booking data) linked to dimension tables (e.g., customers, movies, showtimes).
+            \item The warehouse enabled deeper insights into system operations, such as:
+                \begin{itemize}
+                    \item Revenue trends and peak booking times.
+                    \item Customer behavior analysis (e.g., preferences for certain movies or showtimes).
+                    \item Utilization rates of seat categories.
+                \end{itemize}
+        \end{itemize}
+    }
+    
+ 
+\pagebreak    
+    
+   
+	\resumeItem{Power BI Integration:
+        \begin{itemize}
+            \item Connected Power BI to MySQL: Installed the MySQL ODBC driver (9.1). Successfully connected Power BI to your MySQL database using the ODBC connector.
+            \item Power BI was used for reporting and visualization, connected either directly to the MySQL database or the data warehouse:
+                \begin{itemize}
+                    \item Dashboards were created to display real-time insights like popular movies, peak booking periods, seat occupancy rates, and revenue breakdowns.
+                    \item Dynamic, user-friendly reports empowered stakeholders to make data-driven decisions.
+                \end{itemize}
+        \end{itemize}
+    }    
+    
+    
+\resumeItem{Currently building the web application implementation}    
+    
+\resumeItemListEnd
+        
+        
         
         
         
@@ -226,6 +361,7 @@ Innovative and zealous programmer seeking to leverage extensive background in da
      \textbf{Microsoft Certified: Azure Fundamentals:}{		Microsoft} \\
      \textbf{Introduction to Data Analytics:}{Coursera} \\
      \textbf{Data Analysis with Python:}{ Freecodecamp} \\
+	\textbf{SQL Intermediate:}{	HackerRank} \\     
      \textbf{Excel for Data Analysis:}{	IBM} \\
      \textbf{Data Visualization and Dashboards with Excel and Cognos:}{	IBM} \\
      \textbf{Alteryx Foundational Micro-Credential:}{		Alteryx} \\
@@ -242,17 +378,7 @@ Innovative and zealous programmer seeking to leverage extensive background in da
 
 
 % -------------------- HOBBIES --------------------
-\vspace*{0.2cm}
-\section{Hobbies}
 
-\begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Playing the Drums}{: Played the drums Primary and Highschool marching bands} \\
-     \textbf{Photography}{: Always had a passion for the art of photography. Adept in photo editing using Adobe Lighroom} \\
-     \textbf{Travelling}{: I enjoy the sense of adventure and excitement that comes with exploring new places} \\
-     \textbf{Art}{: Whether drawing, painting or any other creative expression} \\
-    }}
- \end{itemize}
  
 
 \end{document}
