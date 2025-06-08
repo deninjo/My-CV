@@ -185,15 +185,17 @@ Innovative and zealous programmer seeking to leverage extensive background in da
         
             \resumeItem{Conducted a cross-national analysis of the relationship between HIV prevalence and multidimensional poverty using datasets from the WHO Global Health Observatory and World Bank}
             
-            \resumeItem{Cleaned and preprocessed multi-source datasets; to enable accurate merging and comparison.}
             
-            \resumeItem{Integrated HIV and poverty datasets by country and year, forming a comprehensive panel dataset to support temporal and spatial analysis.}
+            \resumeItem{Cleaned and preprocessed multi-source datasets then integrated HIV and poverty datasets by country and year, forming a comprehensive panel dataset to support temporal and spatial analysis.}
             
-            \resumeItem{Built and interpreted correlation matrices to explore statistical relationships between HIV prevalence and poverty sub-indicators (e.g., education, sanitation, electricity)}
+            \resumeItem{Built and interpreted correlation matrices and a linear model to explore statistical relationships between HIV prevalence and poverty sub-indicators.}
+            
+            \resumeItem{Uncovered monetary poverty and lack of access to drinking water as factors with the strongest positive correlations with HIV prevalence. Higher education enrollment was significantly associated with lower HIV prevalence.}
+            
             
             \resumeItem{Visualized key trends using time-series plots and scatter plots to support pattern discovery and hypothesis testing using interactive visualization libraries (e.g., Plotly) to enhance data exploration and stakeholder presentation quality.}
             
-            \resumeItem{Isolated countries accounting for 75\% of the global HIV burden, which included South Africa, Nigeria, Mozambique, India, and Kenya}
+            \resumeItem{Isolated countries accounting for 75\% of the global HIV burden with Sub-Saharan Africa dominating where South Africa alone accounts for a significant share followed by Nigeria, Mozambique, India, and Kenya}
 
             
             \resumeItem{Analyzed under-five and neonatal mortality in East African Community (EAC) countries using UN IGME data.}
@@ -216,16 +218,6 @@ Innovative and zealous programmer seeking to leverage extensive background in da
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
         \resumeProjectHeading
         {\textbf{Analyzed Kenya Data} $|$ \footnotesize\emph{ Jupyter Notebook ,HTML, Git,VS Code}}{}
         \resumeItemListStart
@@ -234,21 +226,39 @@ Innovative and zealous programmer seeking to leverage extensive background in da
             \resumeItem{Cleaned and transformed Kenya's weather data from 1991-2016, providing quality data}
             \resumeItem{Identified correlations and applied statistical methods to find the best fit model for average data across the years}
             \resumeItem{Analyzed Stock Prices from Historical Data (NSE from 2007 - 2012) to understand patterns, predict future movements, and make data-driven investment decisions.}
-            \resumeItem{Predicted the closing price of stocks based on key predictors using ML techniques}
-            \resumeItem{Analyzed Road accidents data and used classification models to predict how risky a road is prone to traffic accidents}
+            \resumeItem{Predicted the closing price of stocks based on key predictors using a linear regressor with a MAE of 0.17 and RMSE of 0.60}
+            \resumeItem{Analyzed Road accidents data to predict how risky a road is prone to traffic accidents. The Random Forest classifier model managed to achieve an accuracy of 99\%}
             
             \resumeItem{Exported the Jupyter Notebook file to HTML to allow interactive visualizations to be seamlessly integrated with the code and analysis}
           \resumeItemListEnd
           
           
+          
+          
+          
+          
+          
+          
+          
+          
         \resumeProjectHeading
         {\textbf{Analyzed Personal Spotify and Apple Music Data} $|$ \footnotesize\emph{ Power BI ,Excel}}{}
         \resumeItemListStart
-            \resumeItem{Extracted personal Spotify and Apple Music data}
-            \resumeItem{Cleaned and transformed raw data into useful information}
-            \resumeItem{Created interactive dashboards providing comparative and descriptive insights}
-            \resumeItem{These dashboards were designed to be dynamic, offering tailored insights at a glance, demonstrating proficiency in Power BI's advanced visualization and data modeling capabilities.}
-            \resumeItem{Applied DAX queries to create calculated measures and columns, enabling insights such as most-streamed genres, artists, and time-based listening patterns.}            
+            \resumeItem{Extracted and integrated personal Spotify and Apple Music streaming data, handling multi-source data consolidation across different platforms and time periods}
+            
+            \resumeItem{Implemented advanced data filtering and slicing using Power BI's interactive features including date range sliders (spanning 2021-2024), time-of-day analysis (24-hour breakdown), and cross-platform comparison filters}
+            
+            \resumeItem{Developed comprehensive KPI metrics including total tracks played (22K+ and 4.9K+ respectively), total listening minutes (83.77K+ and 14.8K+), unique artists discovered (1,218+ and 541+), and average session duration patterns}
+            
+            \resumeItem{Created temporal analysis frameworks to identify listening patterns by year, month, day, and hourly intervals, revealing peak activity periods and seasonal trends in music consumption}
+            
+            \resumeItem{Built multi-dimensional artist performance analytics tracking top artists by both total minutes listened and song count frequency, enabling identification of preferred content types}    
+            
+           \resumeItem{Engineered behavioral insights dashboards analyzing listening completion rates through "End Reason Type" segmentation (natural completion vs. manual skips vs. track forwarding) to understand user engagement patterns}  
+           
+           \resumeItem{ Applied DAX queries to create calculated measures and columns, enabling insights such as most-streamed genres, artists, and time-based listening patterns.}   
+           
+           \resumeItem{Created dynamic time-series visualizations with trend analysis showing listening evolution over multi-year periods, identifying peak listening months and correlation with external factors}     
           \resumeItemListEnd
         
         
@@ -260,12 +270,27 @@ Innovative and zealous programmer seeking to leverage extensive background in da
  
  
  
-
  
  
-
- 
-        
+\resumeProjectHeading
+        {\textbf{LeafLens – Maize Leaf Disease Detection System} $|$ \footnotesize\emph{Python, TensorFlow, CNN, MobileNetV2, Android Integration}}{}
+        \resumeItemListStart
+            \resumeItem{Developed a deep learning–based maize disease prediction system using Convolutional Neural Networks (CNNs), trained on 4,000+ images sourced from Kaggle across four disease classes.}
+            
+            \resumeItem{ Conducted comparative analysis of CNN architectures (DenseNet, Xception, and MobileNetV2); selected MobileNetV2 for its superior performance and efficiency}
+            
+            \resumeItem{Applied transfer learning with hyperparameter tuning to improve generalization and reduce training time.}
+            
+            \resumeItem{Preprocessed images via normalization (0–1 pixel scaling) and resizing to 224x224 pixels; augmented training data with random flipping, 90° rotation, and brightness adjustment}
+            
+            \resumeItem{Implemented model checkpointing, saving best-performing models based on validation accuracy; achieved 99.3\% testing accuracy with a confusion matrix showing only 5 misclassifications across 2 classes}    
+            
+           \resumeItem{Achieved $>$ 97\% precision, recall, and F1-score across all four classes, ensuring robust multi-class performance.}  
+           
+           \resumeItem{ Designed a binary classifier (maize vs. non-maize leaf) using 8,000 images (balanced across both classes); achieved 99\% accuracy, serving as an effective preliminary stage for classification.}   
+           
+           \resumeItem{Collaborated with Android developer colleague to convert models to tensorflowlite and integrate into a mobile app, enabling real-time disease detection via camera input.}     
+          \resumeItemListEnd
        
        
        
@@ -278,6 +303,7 @@ Innovative and zealous programmer seeking to leverage extensive background in da
        
        
        
+ \pagebreak   
         
         
         \resumeProjectHeading
@@ -313,13 +339,13 @@ Innovative and zealous programmer seeking to leverage extensive background in da
     }
     
  
-\pagebreak    
+  
     
    
 	\resumeItem{Power BI Integration:
         \begin{itemize}
-            \item Connected Power BI to MySQL: Installed the MySQL ODBC driver (9.1). Successfully connected Power BI to your MySQL database using the ODBC connector.
-            \item Power BI was used for reporting and visualization, connected either directly to the MySQL database or the data warehouse:
+            \item Connected Power BI to MySQL: Installed the MySQL ODBC driver (9.1). Successfully connected Power BI to my MySQL database using the ODBC connector.
+            \item Power BI was used for reporting and visualization, connected either directly to the MySQL database and the data warehouse:
                 \begin{itemize}
                     \item Dashboards were created to display real-time insights like popular movies, peak booking periods, seat occupancy rates, and revenue breakdowns.
                     \item Dynamic, user-friendly reports empowered stakeholders to make data-driven decisions.

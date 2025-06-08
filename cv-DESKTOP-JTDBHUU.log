@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.30)  8 JUN 2025 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.30)  30 APR 2025 09:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -436,18 +436,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 141.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 141.
-
-Overfull \hbox (19.93782pt too wide) in alignment at lines 182--182
-[] [] 
- []
-
-[1
+ [1
 
 {C:/Users/deninjo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/de
 ninjo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc
 }{C:/Users/deninjo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/f
 a5free2.enc}{C:/Users/deninjo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fon
-tawesome5/fa5free1.enc}] [2] [3] (cv.aux)
+tawesome5/fa5free1.enc}] [2] (cv.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -460,13 +455,13 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 0067D5332DDC0859D86D977E313ED6F2;503.
  ) 
 Here is how much of TeX's memory you used:
- 14420 strings out of 474485
- 250912 string characters out of 5742790
- 1951542 words of memory out of 5000000
- 36530 multiletter control sequences out of 15000+600000
+ 14418 strings out of 474485
+ 250892 string characters out of 5742790
+ 1952542 words of memory out of 5000000
+ 36529 multiletter control sequences out of 15000+600000
  565577 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,633b,710s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,633b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\deninjo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 rm1000.pk><C:/Users/deninjo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fo
 ntawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/deninjo/AppData/Local/Progr
@@ -475,17 +470,16 @@ ams/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users
 b><C:/Users/deninjo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><C:/Users/deninjo/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmcsc10.pfb><C:/Users/deninjo/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/deninjo/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/deninjo/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/deninjo/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/den
-injo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:
+type1/public/amsfonts/cm/cmr10.pfb><C:/Users/deninjo/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/deninjo/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/deninjo/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/deni
+njo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
 /Users/deninjo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
-i10.pfb><C:/Users/deninjo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmti9.pfb>
-Output written on cv.pdf (3 pages, 172822 bytes).
+i9.pfb>
+Output written on cv.pdf (2 pages, 158626 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
