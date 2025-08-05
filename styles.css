@@ -73,6 +73,8 @@ nav.scrolled {
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
+    position: relative; 
+    z-index: 1000; 
 }
 
 .logo {
@@ -943,6 +945,7 @@ nav.scrolled {
     padding-top: 2rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     width: 100%;
+    text-align: center; /* Add this line */
 }
 
 .footer-copyright p {
@@ -983,4 +986,294 @@ nav.scrolled {
 
 .fade-in {
     animation: fadeInUp 1s ease forwards;
+}
+
+
+
+/* ==================== */
+/* MOBILE RESPONSIVENESS */
+/* ==================== */
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Adjust section padding */
+  .section {
+    padding: 4rem 0;
+  }
+  
+  /* Hero section adjustments */
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.3rem;
+  }
+  
+  /* About section stack content */
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .about-image {
+    margin-bottom: 2rem;
+  }
+  
+  /* Contact section stack form */
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Navigation - hamburger menu */
+  .nav-links {
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    width: 80%;
+    height: calc(100vh - 70px);
+    background: rgba(26, 32, 44, 0.98);
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 2rem;
+    transition: all 0.5s ease;
+    backdrop-filter: blur(10px);
+  }
+  
+  .nav-links.active {
+    left: 0;
+  }
+  
+  .nav-links li {
+    margin: 1rem 0;
+  }
+  
+  /* Hero section adjustments */
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+  }
+  
+  /* Projects grid - single column */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Certifications grid - single column */
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Education timeline adjustments */
+  .education-timeline {
+    padding-left: 0;
+  }
+  
+  .education-timeline::before {
+    left: 20px;
+  }
+  
+  .education-item::before {
+    left: 12px;
+  }
+  
+  /* Modal adjustments */
+  .modal-content {
+    width: 90%;
+    padding: 10px;
+  }
+  
+  /* Skills grid adjustments */
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Footer adjustments */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    width: 100%; 
+  }
+}
+
+@media (max-width: 576px) {
+  /* Base adjustments */
+  html {
+    font-size: 14px;
+  }
+  
+  /* Hero section */
+  .hero h1 {
+    font-size: 2rem;
+    margin-top: 60px; /* Add space for mobile menu */
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* Section titles */
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Profile image size */
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Skill categories */
+  .skill-category {
+    padding: 1.5rem;
+  }
+  
+  /* Project cards */
+  .project-header {
+    padding: 1rem;
+  }
+  
+  .project-body {
+    padding: 1.5rem;
+  }
+  
+  /* Footer adjustments */
+  .footer-contact h3 {
+    font-size: 1.3rem;
+  }
+  
+  .footer-link {
+    font-size: 0.9rem;
+  }
+  
+  /* Certification items */
+  .certification-item {
+    padding: 1rem;
+  }
+  
+  /* Education items */
+  .education-item {
+    padding: 1rem;
+  }
+}
+
+/* Mobile menu toggle */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  z-index: 1001;
+  padding: 10px;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: var(--text-light);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.hamburger.active div:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.active div:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active div:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%; /* Changed from 80% to 100% */
+        height: calc(100vh - 70px);
+        background: rgba(26, 32, 44, 0.98);
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 2rem;
+        transition: all 0.5s ease;
+        backdrop-filter: blur(10px);
+        z-index: 999; /* Ensure it's above other content */
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links li {
+        margin: 1rem 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    /* Make sure hamburger is visible */
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1001;
+    }
+}
+
+/* Prevent scrolling when menu is open */
+.no-scroll {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+/* Fix for mobile viewport height */
+@media (max-height: 700px) {
+  .hero {
+    height: auto;
+    padding: 100px 0;
+  }
+}
+
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
 }
